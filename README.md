@@ -105,3 +105,13 @@ or the mentee's preferences.
     - [ ] Implementing a queue
     - [ ] Implementing a binary tree
     - [ ] Implementing a Graph
+    
+## Progress Tracking
+
+### Week 1
+  - [ ] Install linux on laptop
+  - [ ] Install C++ compiler on linux. ( if ubuntu use this [link](https://www.cyberciti.biz/faq/howto-compile-and-run-c-cplusplus-code-in-linux/) )
+  - [ ] Learn git and github
+    - [ ] Practice on [trygit](https://try.github.io/levels/1/challenges/1)
+  - [ ] Write first [Hello world](https://www.programiz.com/cpp-programming/examples/print-sentence) program in C++ and upload to Github.
+  
