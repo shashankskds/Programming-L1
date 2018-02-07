@@ -109,9 +109,21 @@ or the mentee's preferences.
 ## Progress Tracking
 
 ### Week 1
-  - [ ] Install linux on laptop
-  - [ ] Install C++ compiler on linux. ( if ubuntu use this [link](https://www.cyberciti.biz/faq/howto-compile-and-run-c-cplusplus-code-in-linux/) )
-  - [ ] Learn git and github
+  - [x] Install linux on laptop
+  - [x] Install C++ compiler on linux. ( if ubuntu use this [link](https://www.cyberciti.biz/faq/howto-compile-and-run-c-cplusplus-code-in-linux/) )
+  - [x] Learn git and github
     - [ ] Practice on [trygit](https://try.github.io/levels/1/challenges/1)
-  - [ ] Write first [Hello world](https://www.programiz.com/cpp-programming/examples/print-sentence) program in C++ and upload to Github.
+  - [x] Write first [Hello world](https://www.programiz.com/cpp-programming/examples/print-sentence) program in C++ and upload to Github.
   
+### Week 2
+  - [ ] Things to learn
+    - [ ] Type of variables in C++.
+    - [ ] Using 'for' loop.
+    - [ ] Using 'if' statements.
+  - [ ] Programs to write.
+    - [ ] Write a program which takes two numbers from a user X and Y and prints sum, substraction, multiplication and division of those values.
+    - [ ] Write a program which takes one number X from user and prints all numbers from 0 to X. Example X=5 then, output= 1, 2, 3, 4, 5
+    - [ ] Write a program which takes one number X from user and print factorial of X. 
+    - [ ] Write a program which takes one number X from user and print reverse of X. Example X = 21 then, output = 12.
+    - [ ] Write a program which asks user to enter his name N and prints all the vowels in the name. Example N=aditya, output = a i a
+    - [ ] Write a program which takes one number X from user and print "MAGIC" if the number is a multiple of 100. Means if i enter 100, 200, ... 100000 output should be "MAGIC".
