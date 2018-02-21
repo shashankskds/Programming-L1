@@ -15,8 +15,9 @@ int main (){
 	cout << " enter next number " << endl;
 	cin >> numb2;
 
-
-      switch(o){
+               
+      switch(o)
+      {
 	      case '+':
 		     cout << " RESULT "; 
 		      cout << numb1 + numb2;
