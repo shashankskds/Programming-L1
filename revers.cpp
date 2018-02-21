@@ -7,11 +7,13 @@ int main()
                                 
 	cout << " enter a number " << endl;
 	cin >> x;
-
-	while ( 0 != x) {
+                       
+	while ( 0 != x)
+       	{                         
+		                                                            
 	           lastdigit = x % 10;                             
-		   ReversedNumber = ReversedNumber* 10 + lastdigit;
-
+          	  ReversedNumber = ReversedNumber* 10 + lastdigit;
+                           
 		   x = x/10;
 	}
           cout << " Reversed no... " << ReversedNumber << endl;
