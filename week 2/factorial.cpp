@@ -1,5 +1,19 @@
+/**
+ * Asn 3 , factorial.cpp
+ * purpose :this program calculate factorial of any intigar.
+ *
+ * @author shashank
+ */
+
+
 #include<iostream>
 using namespace std;
+/**
+ * returns factorial of those number 
+ *
+ * @param n n is a intigar
+ * @return the factorial of n
+ */
 
 int factorial(int n);
 
@@ -16,9 +30,15 @@ int main()
 }
 
 int factorial(int n)
-{
-    if(n > 1)
-        return n * factorial(n - 1);
-    else
-        return 1;
+{                 
+     if ( n > 1 ) 
+     {
+	     return n * factorial ( n - 1 ); // if n = 3 than n become 2 and total = 3 x 2 it goes untill statement is true 
+
+     }
+     else    // if n = 1 than it return 1                                    
+     {
+	     return 1;
+     }
+                                                  
 }
