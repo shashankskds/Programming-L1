@@ -32,17 +32,17 @@ or the mentee's preferences.
 ### Phase 1
 - [ ] Basics and first program 
     - [ ] A bit about computers and C++ 
-    - [ ] Printing your first program
-    - [ ] Breaking down the first program
-    - [ ] Basic Arithmetic
-    - [ ] Basic decision making
+    - [x] Printing your first program
+    - [x] Breaking down the first program
+    - [x] Basic Arithmetic
+    - [x] Basic decision making
     
 ### Phase 2
 - [ ] Essentials for writing program
-    - [ ] Data types
-    - [ ] Logical Operators
-    - [ ] Control structures
-    - [ ] Using if .. else 
+    - [x] Data types
+    - [x] Logical Operators
+    - [x] Control structures
+    - [x] Using if .. else 
     - [ ] Using do .. while
     - [ ] Using Switch statement
 
@@ -116,14 +116,29 @@ or the mentee's preferences.
   - [x] Write first [Hello world](https://www.programiz.com/cpp-programming/examples/print-sentence) program in C++ and upload to Github.
   
 ### Week 2
-  - [ ] Things to learn
-    - [ ] Type of variables in C++.
-    - [ ] Using 'for' loop.
-    - [ ] Using 'if' statements.
-  - [ ] Programs to write.
-    - [ ] Write a program which takes two numbers from a user X and Y and prints sum, substraction, multiplication and division of those values.
-    - [ ] Write a program which takes one number X from user and prints all numbers from 0 to X. Example X=5 then, output= 1, 2, 3, 4, 5
-    - [ ] Write a program which takes one number X from user and print factorial of X. 
-    - [ ] Write a program which takes one number X from user and print reverse of X. Example X = 21 then, output = 12.
+  - [x] Things to learn
+    - [x] Type of variables in C++.
+    - [x] Using 'for' loop.
+    - [x] Using 'if' statements.
+  - [x] Programs to write.
+    - [x] Write a program which takes two numbers from a user X and Y and prints sum, substraction, multiplication and division of those values.
+    - [x] Write a program which takes one number X from user and prints all numbers from 0 to X. Example X=5 then, output= 1, 2, 3, 4, 5
+    - [x] Write a program which takes one number X from user and print factorial of X. 
+    - [x] Write a program which takes one number X from user and print reverse of X. Example X = 21 then, output = 12.
     - [ ] Write a program which asks user to enter his name N and prints all the vowels in the name. Example N=aditya, output = a i a
-    - [ ] Write a program which takes one number X from user and print "MAGIC" if the number is a multiple of 100. Means if i enter 100, 200, ... 100000 output should be "MAGIC".
+    - [x] Write a program which takes one number X from user and print "MAGIC" if the number is a multiple of 100. Means if i enter 100, 200, ... 100000 output should be "MAGIC".
+
+### Week 3
+  - [ ] Things to learn
+    - [ ] Arrays
+    - [ ] Strings
+  - [ ] Programs to write
+    - [ ] WAP(Write a program) which takes a number N followed by N numbers entered by the user. Print all the numbers in reverse order. Example: I- 5 21 23 24 25 26 O- 26 25 24 23 21
+    - [ ] WAP which takes a number N followed by marks of N students and tells the highest and lowest marks. Example: I- 3 99 66 22 O- 99 22
+    - [ ] WAP which takes a number N followed by N names and prints all names starting with a vowel.
+  - [ ] Other tasks
+    - [ ] Make an account on codechef.com and try to solve 2 problems.
+    - [ ] Make account on stackoverflow.com and follow c++ topic.
+    - [ ] http://www.codeconquest.com/what-is-coding/how-does-coding-work/
+    - [ ] https://cs.stackexchange.com/questions/47410/how-is-a-program-executed-at-the-cpu-level
+    - [ ] https://www.freelancer.com/community/articles/how-c-works-understanding-compilation
