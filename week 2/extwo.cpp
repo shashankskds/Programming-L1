@@ -12,10 +12,10 @@
 
 #include<iostream>
 using namespace std;
-
+                                                              
 int main ()
 {                           
-            int x;          //x is a input it can any intigar
+            int x;          //x is a input it can any integer.
             int y = 0;
 
             cout << " Enter a number " << endl;

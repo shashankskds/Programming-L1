@@ -15,9 +15,9 @@ int main()
        
       cout << " Enter a number " << endl;
       cin >> number;                                                                
-                                                                                           
-        if(number/100) // if the number is divisible by 100 and gives any intigar than it print MAGIC
-	{        
+                                                                                                                                                       
+        if(number/100) // if the number is divisible by 100 and gives any integer than it print MAGIC
+	{             
 		cout << " Magic " << endl;
 	} else { 
 		cout << " Error " << endl;

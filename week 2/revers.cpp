@@ -26,7 +26,7 @@ int main()
           	   reversed_number = 10 * reversed_number + last_digit; // 10x0 + 7 = 7 it revers last number.
                    x = x / 10 //  it gives us 1577 / 10 = 157 and the prosses is on untill x is not equal to 0.
 	}
-        cout << "REERSED NUMBER " << " = " << reversed_number << endl;
+        cout << "REVERSED NUMBER " << " = " << reversed_number << endl;
 	return 0;
 }
 

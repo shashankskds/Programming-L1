@@ -1,6 +1,6 @@
 /**
  * Asn 3 , factorial.cpp
- * purpose :this program calculate factorial of any intigar.
+ * purpose :this program calculate factorial of any integers 
  *
  * @author shashank
  */
@@ -11,7 +11,7 @@ using namespace std;
 /**
  * returns factorial of those number 
  *
- * @param n n is a intigar
+ * @param n n is a integer
  * @return the factorial of n
  */
 
