@@ -3,7 +3,7 @@
  * purpose : this program distinguish between vowel and consonant.
  * input = e
  * output =e is a vowel
- * 
+ 
  */                  
                          
 #include<iostream>

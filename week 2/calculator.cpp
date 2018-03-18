@@ -3,7 +3,7 @@
    purpose : calculate the addition, subtraction,m
   ultiplication, division of two number
                                                                             
-   @author shashank
+
    
 */
 

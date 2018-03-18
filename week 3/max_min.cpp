@@ -17,7 +17,7 @@ int main()
 
 	int array_of_marks[100];
 
-	cout << "enter total number of elements it must be under 100:: " << endl;
+	cout << " enter how maney narks are : " << endl;
 	cin >> no_of_element ;
 	cout << endl;
 
