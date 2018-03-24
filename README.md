@@ -30,8 +30,8 @@ or the mentee's preferences.
 ## Path
 
 ### Phase 1
-- [ ] Basics and first program 
-    - [ ] A bit about computers and C++ 
+- [x] Basics and first program 
+    - [x] A bit about computers and C++ 
     - [x] Printing your first program
     - [x] Breaking down the first program
     - [x] Basic Arithmetic
@@ -60,8 +60,8 @@ or the mentee's preferences.
  
 ### Phase 4
 - [ ] Array String and struct
-   - [ ] Arrays
-   - [ ] String
+   - [x] Arrays
+   - [x] String
    - [ ] Struct
    
 ### Phase 5
@@ -112,7 +112,7 @@ or the mentee's preferences.
   - [x] Install linux on laptop
   - [x] Install C++ compiler on linux. ( if ubuntu use this [link](https://www.cyberciti.biz/faq/howto-compile-and-run-c-cplusplus-code-in-linux/) )
   - [x] Learn git and github
-    - [ ] Practice on [trygit](https://try.github.io/levels/1/challenges/1)
+    - [x] Practice on [trygit](https://try.github.io/levels/1/challenges/1)
   - [x] Write first [Hello world](https://www.programiz.com/cpp-programming/examples/print-sentence) program in C++ and upload to Github.
   
 ### Week 2
@@ -129,16 +129,85 @@ or the mentee's preferences.
     - [x] Write a program which takes one number X from user and print "MAGIC" if the number is a multiple of 100. Means if i enter 100, 200, ... 100000 output should be "MAGIC".
 
 ### Week 3
-  - [ ] Things to learn
-    - [ ] Arrays
-    - [ ] Strings
-  - [ ] Programs to write
-    - [ ] WAP(Write a program) which takes a number N followed by N numbers entered by the user. Print all the numbers in reverse order. Example: I- 5 21 23 24 25 26 O- 26 25 24 23 21
-    - [ ] WAP which takes a number N followed by marks of N students and tells the highest and lowest marks. Example: I- 3 99 66 22 O- 99 22
-    - [ ] WAP which takes a number N followed by N names and prints all names starting with a vowel.
+  - [x] Things to learn
+    - [x] Arrays
+    - [x] Strings
+  - [x] Programs to write
+    - [x] WAP(Write a program) which takes a number N followed by N numbers entered by the user. Print all the numbers in reverse order. Example: I- 5 21 23 24 25 26 O- 26 25 24 23 21
+    - [x] WAP which takes a number N followed by marks of N students and tells the highest and lowest marks. Example: I- 3 99 66 22 O- 99 22
+    - [x] WAP which takes a number N followed by N names and prints all names starting with a vowel.
   - [ ] Other tasks
     - [ ] Make an account on codechef.com and try to solve 2 problems.
     - [ ] Make account on stackoverflow.com and follow c++ topic.
     - [ ] http://www.codeconquest.com/what-is-coding/how-does-coding-work/
     - [ ] https://cs.stackexchange.com/questions/47410/how-is-a-program-executed-at-the-cpu-level
     - [ ] https://www.freelancer.com/community/articles/how-c-works-understanding-compilation
+
+### Week 4
+  - [ ] Things to learn
+    - [ ] Functions (https://www.programiz.com/cpp-programming/function)
+    - [ ] Multi-dimension array
+    - [ ] Sorting data
+    - [ ] Searching data
+  - [ ] Program to write
+    - [ ] WAP to which takes a number N followed by N entries of name, age, company. Provide a way to user to search using any of the parameters and return all the rows that match the query. 
+    ```
+    Example Input:
+    Enter N
+    5
+    Enter data
+    anil 21 google
+    rahul 23 facebook
+    sachin 34 google
+    abhi 19 amazon
+    ayush 24 amazon
+    
+    Start search
+    company google
+    
+    Output:
+    anil 21 google
+    sachin 24 google
+    ```
+    - [ ] WAP to take a number N and (a) print a matrix NxN with all 0, (b) print matrix with lower half triangle as 1.
+    ```
+    Example Input:
+    3
+    
+    Output
+    0 0 0
+    0 0 0
+    0 0 0
+    
+    1 0 0
+    1 1 0
+    1 1 1
+    ```
+    
+    - [ ] WAP to enter N numbers and print them in ascending and descending order.
+    ```
+    Input: 
+    5
+    5 4 6 7 3
+    
+    Output:
+    3 4 5 6 7
+    7 6 5 4 3
+    ```
+    - [ ] WAP which contains a function isPrime(int n). Use this function to print all prime numbers from 1 to 1000
+    - [ ] WAP which takes a date in the format DD-MM-YYYY and print how many days have passed from 01-01-YYYY.
+    ```
+    Input:
+    10-01-2011
+    Output:
+    10
+    
+    Input:
+    10-02-2011
+    
+    Output:
+    31 + 10 = 41
+    
+    Take care of leap years and days in february.
+    ```
+    
