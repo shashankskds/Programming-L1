@@ -1,10 +1,10 @@
 /*purpose : this program takes n followed by company , age , name . 
  * and provide a way to search using company parameter.
- *input : 3 , anil 23 google 
- 	ram 32 amazon
-	company 
-	amazon
-  output : ram 32 amazon
+ *input : 2 , anil 23 tata 
+ 	tata 32 amazon
+	name
+	tata
+  output : tata 32 amazon
  */
          
 #include<iostream>
@@ -23,8 +23,8 @@ void scan_info(struct employee array[] , int size )
 {
 
 	
-	for ( int i = 0; i < size; ++i )
-	{
+	for ( int i = 0; i < size; ++i ){
+
 		cout << " enter name ";
 		cin >> array[i].name;
 		cout << " enter age ";
@@ -37,11 +37,11 @@ void scan_info(struct employee array[] , int size )
 
 //this function search wether number struct contain search or not if 
 //search is succesful than it print information of employee
-void search ( struct employee array[] , string a , int number, int size )
+void search ( struct employee array[] , string first , string last , int number, int size )
 {
 	for ( int i = 0; i < size; ++i )
 	{
-		if ( array[i].company.compare(a) == 0 || array[i].name.compare(a)==0 || 
+		if ( ( array[i].company.compare(last) == 0 && first == "company" ) || ( array[i].name.compare(last)==0 && first == "name" ) || 
 				array[i].age == number
 		   )
 		{
@@ -56,8 +56,8 @@ void search ( struct employee array[] , string a , int number, int size )
 int main ()
 {
 	int size;
-	string a , n;// a takes input from user for search. n takes followed by company, name, age
-	int number;
+	string first , last;//first is going to take first string and last is takes last string 
+	int number;// it takes number which is age 
 
 	cout << " enter size ";
 	cin >> size;
@@ -66,18 +66,18 @@ int main ()
 	scan_info (  array , size );
 	
 	cout << "  start search ( every character should be in lowercase ) \n  ";
-        cin >> n;
-	if ( n == "name" || n == "company" )
+        cin >> first;
+	if ( first == "name" || first  == "company" )
 	{	
 		
-		cin >> a;
+		cin >> last;
 	}else {
 		
 		cin >>number;
 	}
 
 	//this function use all parameter
-	search (  array , a ,number, size );
+	search (  array , first , last ,number, size );
 }
 
 

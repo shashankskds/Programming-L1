@@ -1,7 +1,13 @@
 /* purpose : this program print matrix NxN with all 0
  * and print matrix lower half triangle as 1
  * input : 3
- * output : as written 
+ * output : 0 0 0 
+ *          0 0 0 
+ *          0 0 0
+ *
+ *          1 0 0
+ *          1 1 0
+ *          1 1 1
  */
 
 #include<iostream>

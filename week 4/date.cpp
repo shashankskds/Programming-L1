@@ -18,7 +18,7 @@ const int month_days[12] = { 31 , 28 , 31 , 30 , 31 , 30 ,
 	31 , 30 , 31 , 30 , 31 , 30};
 
 //this function count leap year if year is leap it adds 1 day extra
-int count_leap ( date d )
+int is_leap ( date d )
 {
 	int years = d.year;
 	
@@ -44,7 +44,7 @@ int total_date ( date d1 )
 	//check if current date need to be add 1 extra date or not 
 	if ( d1.month > 2 )
 	{
-	total = total + count_leap( d1 );
+	total = total + is_leap( d1 );
 	}
 	
 
@@ -54,15 +54,16 @@ int total_date ( date d1 )
 //driver program
 int main ()
 {
+	char underscore;
+        string enter_date;
 
 	date d1;
-        cout << " enter dd-mm-yyyy \n ";
-        cin >> d1.day;
-	cout << " ";
-	cin >> d1.month;
-	cout << " ";
-	cin >> d1.year;
 
+        cout << " enter dd-mm-yyyy \n ";
+        cin >> enter_date;
+	d1.day = stoi(enter_date.substr( 0 , 2) );//it convert string into integer
+	d1.month = stoi ( enter_date.substr ( 3 , 2 ) );
+	d1.year = stoi ( enter_date.substr (6) );
 	
 	cout << " days " << total_date ( d1 );
 
