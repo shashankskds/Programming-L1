@@ -44,14 +44,14 @@ or the mentee's preferences.
     - [x] Control structures
     - [x] Using if .. else 
     - [ ] Using do .. while
-    - [ ] Using Switch statement
+    - [x] Using Switch statement
 
 ### Phase 3 
-- [ ] Writing Functions  
-    - [ ] Introducing functions()
-        - [ ] Defining Functions
-        - [ ] Function Prototypes
-        - [ ] Function Call Stack
+- [x] Writing Functions  
+    - [x] Introducing functions()
+        - [x] Defining Functions
+        - [x] Function Prototypes
+        - [x] Function Call Stack
         - [ ] Inline Functions
         - [ ] Function Templates
     - [ ] Math Functions
@@ -59,10 +59,10 @@ or the mentee's preferences.
     - [ ] Recursion
  
 ### Phase 4
-- [ ] Array String and struct
+- [x] Array String and struct
    - [x] Arrays
    - [x] String
-   - [ ] Struct
+   - [x] Struct
    
 ### Phase 5
 - [ ] Introducing Pointers
@@ -144,13 +144,13 @@ or the mentee's preferences.
     - [ ] https://www.freelancer.com/community/articles/how-c-works-understanding-compilation
 
 ### Week 4
-  - [ ] Things to learn
-    - [ ] Functions (https://www.programiz.com/cpp-programming/function)
-    - [ ] Multi-dimension array
-    - [ ] Sorting data
-    - [ ] Searching data
-  - [ ] Program to write
-    - [ ] WAP to which takes a number N followed by N entries of name, age, company. Provide a way to user to search using any of the parameters and return all the rows that match the query. 
+  - [x] Things to learn
+    - [x] Functions (https://www.programiz.com/cpp-programming/function)
+    - [x] Multi-dimension array
+    - [x] Sorting data
+    - [x] Searching data
+  - [x] Program to write
+    - [x] WAP to which takes a number N followed by N entries of name, age, company. Provide a way to user to search using any of the parameters and return all the rows that match the query. 
     ```
     Example Input:
     Enter N
@@ -169,7 +169,7 @@ or the mentee's preferences.
     anil 21 google
     sachin 24 google
     ```
-    - [ ] WAP to take a number N and (a) print a matrix NxN with all 0, (b) print matrix with lower half triangle as 1.
+    - [x] WAP to take a number N and (a) print a matrix NxN with all 0, (b) print matrix with lower half triangle as 1.
     ```
     Example Input:
     3
@@ -184,7 +184,7 @@ or the mentee's preferences.
     1 1 1
     ```
     
-    - [ ] WAP to enter N numbers and print them in ascending and descending order.
+    - [x] WAP to enter N numbers and print them in ascending and descending order.
     ```
     Input: 
     5
@@ -194,8 +194,8 @@ or the mentee's preferences.
     3 4 5 6 7
     7 6 5 4 3
     ```
-    - [ ] WAP which contains a function isPrime(int n). Use this function to print all prime numbers from 1 to 1000
-    - [ ] WAP which takes a date in the format DD-MM-YYYY and print how many days have passed from 01-01-YYYY.
+    - [x] WAP which contains a function isPrime(int n). Use this function to print all prime numbers from 1 to 1000
+    - [x] WAP which takes a date in the format DD-MM-YYYY and print how many days have passed from 01-01-YYYY.
     ```
     Input:
     10-01-2011
@@ -211,3 +211,12 @@ or the mentee's preferences.
     Take care of leap years and days in february.
     ```
     
+### Week 5
+  - [ ] Things to learn
+    - [ ] Pointers (https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)
+    - [ ] Array as a pointer (https://www.geeksforgeeks.org/pointer-array-array-pointer/)
+    - [ ] Pointers and memory (http://cslibrary.stanford.edu/102/PointersAndMemory.pdf)
+  - [ ] Program to write
+    - [ ] Complete all questions from Let us C++ pointers chapter.
+    - [ ] https://www.w3resource.com/c-programming-exercises/pointer/index.php
+    - [ ] http://ee.hawaii.edu/~tep/EE160/Book/PDF/Chapter6.pdf
