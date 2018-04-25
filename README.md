@@ -220,3 +220,4 @@ or the mentee's preferences.
     - [ ] Complete all questions from Let us C++ pointers chapter.
     - [ ] https://www.w3resource.com/c-programming-exercises/pointer/index.php
     - [ ] http://ee.hawaii.edu/~tep/EE160/Book/PDF/Chapter6.pdf
+    - [ ] Write any 15 programs on SPOJ. http://www.spoj.com/problems/classical/
